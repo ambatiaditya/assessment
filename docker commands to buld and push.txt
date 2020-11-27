@@ -1,4 +1,4 @@
-docker build --tag sample-webserver
+docker build --tag sample-webserver .
 docker tag sample-webserver gcr.io/<give your project-id>/sample-webserver:v1
 gcloud auth configure-docker
 docker push gcr.io/<give your project-id>/sample-webserver
