@@ -1,0 +1,4 @@
+docker build --name sample-webserver dockerfile
+docker tag sample-webserver gcr.io/<give your project-id>/sample-webserver:v1
+gcloud auth configure-docker
+docker push gcr.io/<give your project-id>/sample-webserver
