@@ -18,7 +18,10 @@
 
 Hi
 
+<<<<<<< HEAD
 How are you .
+=======
+>>>>>>> parent of 72b2fff... made few changes in readme
 
 
 
